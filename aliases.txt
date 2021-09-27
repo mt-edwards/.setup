@@ -1,0 +1,19 @@
+# change to project directories
+alias cdpp='cd ~/Sync/documents/project-python'
+alias cdpr='cd ~/Sync/documents/project-r'
+
+# make and activate virtual environments
+alias mkvenv='python3 -m venv .venv'
+alias activate='source .venv/bin/activate'
+alias pipup='python -m pip install --upgrade pip'
+
+# start jupyter notebook
+alias jn='jupyter notebook'
+
+# make and change to director
+mkcd() {
+    mkdir -p -- "$1" && cd -- "$1"
+}
+
+# docker commands
+
