@@ -1,1 +1,1 @@
-# .config
+# OSX Configuration
