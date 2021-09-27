@@ -1,4 +1,4 @@
-\# OSX Configuration
+# OSX Configuration
 
 ## Aliases
 To configure aliases add
