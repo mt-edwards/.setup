@@ -1,11 +1,13 @@
+
+/Users/matthewedwards/Desktop/sage/.venv/bin/python /Users/matthewedwards/Desktop/sage/example.py
 # change to project directories
 alias cdp='cd ~/Sync/documents/projects-python'
 alias cdr='cd ~/Sync/documents/projects-r'
-
+alias cdc='cd ~/Sync/documents/projects-cl'
 # make and activate virtual environments
 alias mkvenv='python3 -m venv .venv'
 alias activate='source .venv/bin/activate'
-alias pipup='python -m pip install --upgrade pip'
-
+alias pipup='pip install --upgrade pip'
+alias pipml='pip install -U scikit-learn'
 # start jupyter notebook
 alias jn='jupyter notebook'
