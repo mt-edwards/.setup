@@ -8,7 +8,7 @@ mkvenv() {
 	if [ "$#" -eq 1 ]; then
     	pyenv local "$1"
 	else
-		pyenv local $(pyenv versions | grep -v "system" | sort | tail -1)
+		pyenv local $(pyenv global)
 	fi
 	python -m venv .venv
 }
