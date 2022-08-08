@@ -11,12 +11,12 @@ fi
 
 to startup file.
 
-## Exports
-To configure exports add
+## Functions
+To configure functions add
 
 ```
-if [ -e $HOME/.setup/exports ]; then
-        source $HOME/.setup/exports
+if [ -e $HOME/.setup/functions ]; then
+        source $HOME/.setup/functions
 fi
 ```
 

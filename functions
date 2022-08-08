@@ -1,0 +1,14 @@
+# make and change directory
+mkcd() {
+    mkdir -p -- "$1" && cd -- "$1"
+}
+
+# make python environment
+mkvenv() {
+	if [ "$#" -eq 1 ]; then
+    	pyenv local "$1"
+	else
+		pyenv local $(pyenv versions | grep -v "system" | sort | tail -n1)
+	fi
+	python -m venv .venv
+}
