@@ -6,7 +6,7 @@ alias cdc='cd ~/Sync/documents/projects-cl'
 # virtual environments
 alias activate='source .venv/bin/activate'
 alias pipup='pip install --upgrade pip'
-alias pipml='pip install -U scikit-learn'
+alias pipml='pip install -U scikit-learn ipykernel'
 
 # jupyter notebook
 alias jn='jupyter notebook'
