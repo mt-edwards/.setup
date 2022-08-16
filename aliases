@@ -1,8 +1,3 @@
-# project directories
-alias cdp='cd ~/Sync/documents/projects-python'
-alias cdr='cd ~/Sync/documents/projects-r'
-alias cdc='cd ~/Sync/documents/projects-cl'
-
 # virtual environments
 alias activate='source .venv/bin/activate'
 alias pipup='pip install --upgrade pip'

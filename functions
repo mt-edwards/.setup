@@ -12,3 +12,12 @@ mkvenv() {
 	fi
 	python -m venv .venv
 }
+
+# make python project
+mkp() {
+	mkcd $1
+	mkvenv $2
+	activate
+	pipup
+	pipml
+}
