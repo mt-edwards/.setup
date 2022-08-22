@@ -19,5 +19,4 @@ mkp() {
 	mkvenv $2
 	activate
 	pipup
-	pipml
 }

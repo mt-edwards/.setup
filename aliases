@@ -1,7 +1,7 @@
 # virtual environments
 alias activate='source .venv/bin/activate'
 alias pipup='pip install --upgrade pip'
-alias pipml='pip install -U scikit-learn ipykernel'
+alias pipml='pip install -r ~/.setup/requirements.txt'
 
 # jupyter notebook
 alias jn='jupyter notebook'

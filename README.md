@@ -1,23 +1,13 @@
 # Setup
 
-## Aliases
-To configure aliases add
+1. Clone the repository:
 
 ```
-if [ -e $HOME/.setup/aliases ]; then
-	source $HOME/.setup/aliases
-fi
+git clone git@github.com:mt-edwards/.setup.git ~/.setup
 ```
 
-to startup file.
-
-## Functions
-To configure functions add
+2. Run the install script:
 
 ```
-if [ -e $HOME/.setup/functions ]; then
-        source $HOME/.setup/functions
-fi
+~/.setup/install.sh
 ```
-
-to startup file.
