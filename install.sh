@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-cat << EOF >> $HOME/.setup/.zshrc
+cat << EOF >> $HOME/.zshrc
+
 if [ -e \$HOME/.setup/aliases ]; then
 	source \$HOME/.setup/aliases
 fi
