@@ -10,7 +10,7 @@ mkvenv() {
 	else
 		pyenv local $(pyenv global)
 	fi
-	python -m venv .venv
+	python -m venv venv
 }
 
 # make python project
